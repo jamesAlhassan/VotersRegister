@@ -1,3 +1,44 @@
-body {
-  background: red;
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/*
+=============== 
+Variables
+===============
+*/
+:root {
+  --clr-primary: #007bff;
+  --clr-secondary: #6c757d;
+  --clr-gold: #c59d5f;
+  --clr-black: #222;
+  --clr-blue: #007bff;
+  --clr-indigo: #6610f2;
+  --clr-purple: #6f42c1;
+  --clr-pink: #e83e8c;
+  --clr-red: #dc3545;
+  --clr-orange: #fd7e14;
+  --clr-yellow: #ffc107;
+  --clr-green: #28a745;
+  --clr-teal: #20c997;
+  --clr-cyan: #17a2b8;
+  --clr-white: #fff;
+  --clr-gray: #6c757d;
+  --clr-gray-dark: #343a40;
+  --clr-success: #28a745;
+  --clr-info: #17a2b8;
+  --clr-warning: #ffc107;
+  --clr-danger: #dc3545;
+  --clr-light: #f8f9fa;
+  --clr-dark: #343a40;
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
