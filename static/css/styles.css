@@ -12,6 +12,7 @@ Variables
 */
 :root {
   --clr-primary: #007bff;
+  --clr-primary-dark: #382873;
   --clr-secondary: #6c757d;
   --clr-gold: #c59d5f;
   --clr-black: #222;
@@ -41,4 +42,12 @@ Variables
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.custom-bg {
+  background: var(--clr-primary-dark);
+  color: var(--clr-white);
+}
+.logo {
+  color: var(--clr-white);
 }
