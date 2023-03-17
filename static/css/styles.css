@@ -149,9 +149,13 @@ h4 {
 }
 @media screen and (min-width: 700px) {
   .title {
-    left: 40%;
-    font-size: 1.7rem;
-    /* font-family: var(--ff-primary);
-    font-weight: 700; */
+    top: 1.6rem;
+    left: 35%;
+    font-size: 2.5rem;
   }
+}
+
+.custom-search-btn:hover {
+  background: var(--clr-white);
+  color: var(--clr-primary-dark);
 }
