@@ -17,45 +17,67 @@
     <title>{% block title %} BASE {% endblock title %}</title>
   </head>
   <body>
-    <!-- HEADER -->
-    <nav class="navbar navbar-expand-md navbar-dark custom-bg">
-      <div
-        class="navbar-collapse w-100 order-1 order-md-0 dual-collapse2 collapse"
-        style=""
-      >
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <img
-              class="logo"
-              src="{% static 'images/logo.svg' %}"
-              height="40"
-            />
-            Voters' Registration Commission
-          </li>
-        </ul>
-      </div>
-
-      <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="#" style="margin-left: -30%"
-          >VOTERS' REGISTRATION PLATFORM</a
-        >
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img class="nav-logo" src="{% static 'images/logo.svg' %}" alt=""
+        /></a>
         <button
-          class="navbar-toggler collapsed"
+          class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target=".dual-collapse2"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-      </div>
-      <div
-        class="navbar-collapse w-100 order-3 dual-collapse2 collapse"
-        style=""
-      >
-        <ul class="navbar-nav ml-auto"></ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">New Application</a></li>
+                <li><a class="dropdown-item" href="#">Login</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Check Status</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Get Serial No. And Pin</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
       </div>
     </nav>
+    <div class="nav-title">
+      <h3 class="title">voters' registration platform</h3>
+    </div>
     <!-- END OF HEADER -->
     <!-- BOOSTRAP JS -->
     <script
