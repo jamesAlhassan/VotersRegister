@@ -1,0 +1,47 @@
+{% extends "base.html" %} {% load static %}
+{% block title %} LOGIN {% endblock title %} {% block content %}
+<section class="section">
+  <div class="section-center">
+    <!-- first content -->
+    <div>
+      <article class="hero-container">
+        <img
+          src="{% static 'images/startappli.png' %}"
+          alt=""
+          class="hero-img"
+        />
+        <p class="hero-text">start your application today</p>
+        <button class="btn hero-btn">new apllication</button>
+      </article>
+    </div>
+    <!-- end of first content -->
+    <!-- second content -->
+    <div>
+      <article class="hero-container">
+        <img src="{% static 'images/login.jpeg' %}" alt="" class="hero-img" />
+        <p class="hero-text">login with your credentials</p>
+        <button class="btn hero-btn">login</button>
+      </article>
+    </div>
+    <!-- end of second content -->
+    <!-- third content -->
+    <div>
+      <article class="hero-container">
+        <img src="{% static 'images/status.jpeg' %}" alt="" class="hero-img" />
+        <p class="hero-text">check your status to confirm eligibility</p>
+        <button class="btn hero-btn">check status</button>
+      </article>
+    </div>
+    <!-- end of third content -->
+    <!-- fourth content -->
+    <div>
+      <article class="hero-container">
+        <img src="{% static 'images/pin.jpeg' %}" alt="" class="hero-img" />
+        <p class="hero-text">get your voter's number</p>
+        <button class="btn hero-btn">voter's number</button>
+      </article>
+    </div>
+    <!-- end of fourth content -->
+  </div>
+</section>
+{% endblock content %}
