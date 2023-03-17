@@ -1,5 +1,5 @@
-{% extends "base.html" %} {% load static %} {% block title %} LOGIN {% endblock
-title %} {% block content %}
+{% extends "base.html" %} {% load static %}
+{% block title %} LOGIN {% endblock title %} {% block content %}
 <section class="section">
   <div class="section-center">
     <!-- first content -->
@@ -11,8 +11,8 @@ title %} {% block content %}
           class="hero-img"
         />
         <hr />
-        <p class="hero-text">start your application today</p>
-        <button class="btn hero-btn">new apllication</button>
+        <p class="hero-text">register with your ghana card</p>
+        <button class="btn hero-btn">new registration</button>
       </article>
     </div>
     <!-- end of first content -->
@@ -21,7 +21,7 @@ title %} {% block content %}
       <article class="hero-container">
         <img src="{% static 'images/login.jpeg' %}" alt="" class="hero-img" />
         <hr />
-        <p class="hero-text">login with your credentials</p>
+        <p class="hero-text">login with your credentials to vote</p>
         <button class="btn hero-btn">login</button>
       </article>
     </div>
@@ -31,7 +31,7 @@ title %} {% block content %}
       <article class="hero-container">
         <img src="{% static 'images/status.jpeg' %}" alt="" class="hero-img" />
         <hr />
-        <p class="hero-text">check status, confirm eligibility</p>
+        <p class="hero-text">check / confirm eligibility...</p>
         <button class="btn hero-btn">check status</button>
       </article>
     </div>
@@ -48,4 +48,5 @@ title %} {% block content %}
     <!-- end of fourth content -->
   </div>
 </section>
+
 {% endblock content %}
