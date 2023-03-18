@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "vRegister.apps.VregisterConfig"
+    "vRegister.apps.VregisterConfig",
+    "accounts.apps.AccountsConfig"
 ]
 
 MIDDLEWARE = [
