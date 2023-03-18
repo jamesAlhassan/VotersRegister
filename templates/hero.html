@@ -12,7 +12,7 @@
         />
         <hr />
         <p class="hero-text">register with your ghana card</p>
-        <button class="btn hero-btn">new registration</button>
+        <a href="{% url 'login' %}"><button class="btn hero-btn">register</button><a/>
       </article>
     </div>
     <!-- end of first content -->
@@ -22,7 +22,8 @@
         <img src="{% static 'images/login.jpeg' %}" alt="" class="hero-img" />
         <hr />
         <p class="hero-text">login with your credentials to vote</p>
-        <button class="btn hero-btn">login</button>
+               <a href="{% url 'login' %}"><button class="btn hero-btn">login</button><a/>
+
       </article>
     </div>
     <!-- end of second content -->
@@ -32,7 +33,8 @@
         <img src="{% static 'images/status.jpeg' %}" alt="" class="hero-img" />
         <hr />
         <p class="hero-text">check / confirm eligibility...</p>
-        <button class="btn hero-btn">check status</button>
+        <a href="{% url 'login' %}"><button class="btn hero-btn">check status</button><a/>
+
       </article>
     </div>
     <!-- end of third content -->
@@ -42,7 +44,7 @@
         <img src="{% static 'images/pin.jpeg' %}" alt="" class="hero-img" />
         <hr />
         <p class="hero-text">get your secret voter's number</p>
-        <button class="btn hero-btn">voter's number</button>
+        <a href="{% url 'login' %}"><button class="btn hero-btn">get voter's id</button><a/>
       </article>
     </div>
     <!-- end of fourth content -->

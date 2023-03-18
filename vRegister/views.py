@@ -5,5 +5,5 @@ from django.http import HttpResponse
 def base(request):
     return render(request, 'base.html')
 
-def login(request):
-    return render(request, 'login.html')
+def hero(request):
+    return render(request, 'hero.html')
