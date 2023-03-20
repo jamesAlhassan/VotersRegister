@@ -4,20 +4,15 @@ from django import forms
 
 
 class CustomUserCreationForm(UserCreationForm):
-    username = forms.CharField(max_length=200)
-    email = forms.EmailField()
     first_name = forms.CharField(max_length=200)
-    last_name = forms.CharField(max_length=200)
-    password1=forms.CharField()
-    password1=forms.CharField()
-
-    
+    last_name= forms.CharField(max_length=200)
+  
     class Meta(UserCreationForm):
         model = CustomUser
-        fields = UserCreationForm.Meta.fields + ( "date_of_birth","age", "gender", "resdential_address", "mobile_number",)
+        fields = ("username", "first_name","last_name", "email")
 
 
 class CustomUserChangeForm(UserChangeForm):
     class Meta:
         model = CustomUser
-        fields = UserChangeForm.Meta.fields
+        fields = ("username", "first_name", "last_name","email")

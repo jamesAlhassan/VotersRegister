@@ -16,9 +16,9 @@ class CustomUser(AbstractUser):
 
     gender = models.CharField(max_length=1, choices=GENDER_CHOICES, null=True, blank=True)
     
-    resdential_address = models.CharField(max_length=200,null=True, blank=True)
+    residential_address = models.CharField(max_length=200,null=True, blank=True)
     
-    mobile_number = models.BigIntegerField(null=True, blank=True)
+    mobile_number = models.IntegerField(null=True, blank=True, unique=True)
 
     def get_age(self):
         age = date.today()-self.date_of_birth
