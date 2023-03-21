@@ -248,9 +248,15 @@ hr {
   display: inline-block;
   margin-bottom: 12rem;
 }
-.ch-paawd {
+.ch-passwd {
   margin-bottom: 1.5rem;
 }
 .ch-passwd-form {
   margin-bottom: 5rem;
+}
+.ch-passwd-success {
+  color: #28a745;
+}
+.ft {
+  margin-bottom: 39rem;
 }
