@@ -231,6 +231,26 @@ hr {
   color: var(--clr-white);
 }
 
-.dd {
+/* .dd {
   height: 8vh;
+} */
+
+.forgot-passwd {
+  display: inline-block;
+  margin-top: 0.25rem;
+  margin-bottom: 30rem;
+}
+.login {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+.passwd_ch_inp {
+  display: inline-block;
+  margin-bottom: 12rem;
+}
+.ch-paawd {
+  margin-bottom: 1.5rem;
+}
+.ch-passwd-form {
+  margin-bottom: 5rem;
 }
