@@ -7,3 +7,6 @@ def base(request):
 
 def hero(request):
     return render(request, 'hero.html')
+
+def register(request):
+    return render(request, "register.html")
