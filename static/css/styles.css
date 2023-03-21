@@ -263,5 +263,6 @@ hr {
 .reset-passwd {
   margin-bottom: 30rem;
 }
-.reset-passwd-done {
+.reset-confirm {
+  margin-bottom: 22rem;
 }
