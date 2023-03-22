@@ -1,37 +1,80 @@
 {% extends "base.html" %} {% load static %}
-{% block title %}
-REGISTER {% endblock title %} {% block content %}
-<section class="reg-section">
-  <div class="reg-center">
-    <article class="main-nav">
+{% block title %} REGISTER {% endblock title %} {% block content %}
+
+<section class="navigation">
+  <div class="small-nav-section">
+    <div class="small-nav-center">
+      <p class="mn">main navigation</p>
+      <article class="small-nav">
+        <!-- first item -->
+        <div class="small-nav-items">
+          <a href="#" class="small-nav-icon"><i class="fa fa-user"></i></a>
+          <span class="small-nav-text">bio information</span>
+        </div>
+        <!-- end of first item -->
+
+        <!-- second item -->
+        <div class="small-nav-items">
+          <a href="#" class="small-nav-icon"><i class="fa fa-id-card"></i></a>
+          <span class="small-nav-text">indentification</span>
+        </div>
+        <!-- end of second item -->
+
+        <!-- third item -->
+        <div class="small-nav-items">
+          <a href="#" class="small-nav-icon"><i class="fa fa-home"></i></a>
+          <span class="small-nav-text">resdential address</span>
+        </div>
+        <!-- end of third item -->
+
+        <!-- fourth item -->
+        <div class="small-nav-items">
+          <a href="#" class="small-nav-icon"
+            ><i class="fa fa-mortar-board"></i
+          ></a>
+          <span class="small-nav-text">educational background</span>
+        </div>
+        <!-- end of fourth item -->
+      </article>
+    </div>
+  </div>
+  <div class="main-dash">
+    <div class="main-items">
       <!-- first item -->
-      <div class="nav-items">
-        <a href="#" class="nav-icon"><i class="fa fa-user"></i></a>
-        <span class="nav-text">bio information</span>
+      <div class="main-dash-items">
+        <a href="#" class="main-dash-icon"><i class="fa fa-user"></i></a>
+        <span class="main-dash-text">bio information</span>
       </div>
       <!-- end of first item -->
-
       <!-- second item -->
-      <div class="nav-items">
-        <a href="#" class="nav-icon"><i class="fa fa-id-card"></i></a>
-        <span class="nav-text">indentification</span>
+      <div class="main-dash-items">
+        <a href="#" class="main-dash-icon"><i class="fa fa-id-card"></i></a>
+        <span class="main-dash-text">indentification</span>
       </div>
       <!-- end of second item -->
 
       <!-- third item -->
-      <div class="nav-items">
-        <a href="#" class="nav-icon"><i class="fa fa-home"></i></a>
-        <span class="nav-text">resdential address</span>
+      <div class="main-dash-items">
+        <a href="#" class="main-dash-icon"><i class="fa fa-home"></i></a>
+        <span class="main-dash-text">resdential address</span>
       </div>
       <!-- end of third item -->
 
       <!-- fourth item -->
-      <div class="nav-items">
-        <a href="#" class="nav-icon"><i class="fa fa-mortar-board"></i></a>
-        <span class="nav-text">educational background</span>
+      <div class="main-dash-items">
+        <a href="#" class="main-dash-icon"
+          ><i class="fa fa-mortar-board"></i
+        ></a>
+        <span class="main-dash-text">educational background</span>
       </div>
       <!-- end of fourth item -->
-    </article>
+      <!-- second item -->
+      <div class="main-dash-items">
+        <a href="#" class="main-dash-icon"><i class="fa fa-id-card"></i></a>
+        <span class="main-dash-text">indentification</span>
+      </div>
+      <!-- end of second item -->
+    </div>
   </div>
 </section>
 
